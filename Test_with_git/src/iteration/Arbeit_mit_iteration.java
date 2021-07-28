@@ -11,7 +11,7 @@ public class Arbeit_mit_iteration {
 		 * le nomde de tour est definit des la base
 		 */
 		for(int i = 0; i < 5; i++ ) {
-			System.out.println(i+"ieme tour -----Bonjour Nelly et Nadia");
+			System.out.println(i+"ieme tour -----Bonjour Nelly et Blondelle");
 		}
 		
 		/*
