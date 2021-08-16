@@ -16,7 +16,7 @@ public class Compzter {
 		
 		//tabelle bidementionelle avec definition de la taille
 		Integer[][] bidimentionel = new Integer[5][4];
-		Integer[][] bidimentionel_vierge;
+		Integer[][][] bidimentionel_vierge;
 		Integer[][] bidemention_initialisation = { {4, 5, 5,7},
 												   {4, 8, 7, 2},
 												   {11, 5, 8, 9}  
@@ -30,13 +30,13 @@ public class Compzter {
 		//affectation monodimensionel
 		tabelle[2] = 9;
 		//parcourir tous les elemnt du mono a l'aide d'une boucle
-		for (int index = 0 ; index < tabelle.length; index++) {
+		for (int index = 0 ; index <= tabelle.length - 1 ; index++) {
 			System.out.println("element a l'indice "+index+ " : "+tabelle[index]);
 		}
 		
 		//affectation matrice bidirectionelle
 		bidimentionel[0][3] = 6;
-		bidimentionel[3][2] = 7;
+		bidimentionel[2][2] = 7;
 		
 		//afficher la taille
 		System.out.println("nombre de ligne tableau bi : "+ bidemention_initialisation.length);
