@@ -3,9 +3,9 @@ package matrices;
 public class ProduitDeMatriceCarre {
 	
 	public static void main(String[] args) {
-		Integer[][] matrice_carreA = { {5, 3}, //0,0     0,1
-					  				   {-1, 4},
-					  				   {-1, 4}
+		Integer[][] matrice_carreA = { {5, 3,12}, //0,0     0,1
+					  				   {-1, 4, 11},
+					  				   {-1, 4, 11}
 									 };
 		
 		Integer[][] matrice_carreB = { {7, 2, 5}, // 0,0  
